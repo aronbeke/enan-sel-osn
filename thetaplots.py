@@ -217,8 +217,8 @@ headers = ['stage_cut','ss_ee_Rr','ss_ee_Rp','ss_ee_Sr','ss_ee_Sp','ss_rec_Rr','
     'srr_ee_R','srr_ee_S','srr_rec_R','srr_rec_S','c01_ee_Rr','c01_ee_Rp','c01_ee_Sr','c01_ee_Sp',
     'c01_rec_Rr','c01_rec_Rp','c01_rec_Sr','c01_rec_Sp']
 
-df = pd.DataFrame(RES)
-df.columns = headers
-df.to_csv('results.csv', index=False)
+#df = pd.DataFrame(RES)
+#df.columns = headers
+#df.to_csv('results.csv', index=False)
 
 plt.show()
